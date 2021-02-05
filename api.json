@@ -1,0 +1,31 @@
+{"zip_api":{"api":"3bc0920e2b6f5a6852a156cda340ddb4","email": "chen.ning345@gmail.com","password": "zp-cn1988.34.5"}}
+
+"""
+Zip API
+https://www.programmableweb.com/api/zip-api-us
+    
+from requests.auth import HTTPBasicAuth
+
+f = open('api.json')
+api_key = json.load(f)
+
+url = f"https://service.zipapi.us/hospital/radius/11367?X-API-KEY={api_key['zip_api']['api']}"
+
+params = {  
+            'radius': 20
+          }
+
+response = requests.get(url, params,  auth=HTTPBasicAuth(api_key['zip_api']['email'], api_key['zip_api']['password']))
+d = response.json()
+
+pd.DataFrame(d['data'])
+
+url = f"https://service.zipapi.us/age/zipcode/11367?X-API-KEY={api_key['zip_api']['api']}"
+
+params = {  
+            'fields': ['male_age','female_age']
+          }
+
+response = requests.get(url, params,  auth=HTTPBasicAuth(api_key['zip_api']['email'], api_key['zip_api']['password']))
+d = response.json()
+"""
