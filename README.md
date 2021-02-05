@@ -1,25 +1,25 @@
 <p>
-<img src="images/Coronavirus.jpg" width="900" height="585">
+<img src="images/stock-chart.jpeg" width="900" height="600">
 </p>
 
-# Coronavirus Prediction
+# Stock Market Prediction
 
-**Authors**: Ning Chen, Elliot Macy
+**Authors**: Ning Chen
 
 ## Overview
-The goal of this project is to investigate Coronavirus and make related predictions in regard to time series modeling. The data is accessed by public APIs. Machine learning and deep learning methods such as ARMA, ARIMA, SARIMAX, Facebook PROPHET, Recurrent Neural Network and Long short-term memory (LSTM) Networks are implemented and evaluated.
+Accurate prediction of stock market asset is a significant and challenging task due to complicated nature of the financial stock markets. Considering the increasing availability and affordability of powerful computational engines, deep learning methods of prediction have proved its efficiency in finance.
 
 
 ## Business Understanding
 
-The prediction problem of Coronavirus comes with a significant degree of ambiguity, which is difficult to predict considering the complex circumstances in the real world. While one important task in this project is understanding time series modeling and forecasting related rates for the decision makers to layout some strategies in dealing with covid-19.
+My capstone project is Stock market Prediction. I’m going to build a time series regression model using NN or other advanced techniques to predict the stock market. Stock market prediction aims to determine the future movement of the stock value of a financial exchange. My project is helpful for Stock investors and investment banks to have a better understanding in developing economical Strategy and in making financial decisions.
 
 
 
 
 ## Data Understanding
-The Coronavirus data is accessed by open public APIs without authentication. It provides updated information associated with COVID-19. The public data [API](https://github.com/ghcn345/Coronavirus-Research) provides access to all of the data at a national and state level. The death cases, positive cases and mortality are studied to make further predictions. 
 
+API
 
 ## Data Preparation
 ACF and PACF 
@@ -43,17 +43,14 @@ All models are evaluated by RMSE and MAE.
 ![graph](/images/lstm.jpeg)
 
 ## Conclusion
-1. LSTM Networks serve as the best model for coronavirus prediction with small RMSE and MAE. 
-2. SARIMAX with opitmized hyperparameters by Gridsearch also work well for the prediction. 
-3. Due to limited known condtions, it is difficult to make precise predictions. 
-4. It shows less death and positive cases at weekends and more cases on Monday.
+1. 
 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](https://github.com/ghcn345/Coronavirus-Prediction/blob/master/project_coronavirus.ipynb) or our [presentation](https://github.com/ghcn345/Coronavirus-Prediction/blob/master/Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook]() or our [presentation]().
 
-For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com, Elliot Macy—elimacy@gmail.com**.
+For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**.
 
 ## Repository Structure
 
@@ -61,10 +58,8 @@ Description of the structure of the repository and its contents:
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── project_coronavirus                 <- Narrative documentation of analysis in Jupyter notebook
-├── death_grid                          <- pickle to store the optimized results by Gridsearch
+├── stock_market                        <- Narrative documentation of analysis in Jupyter notebook
 ├── Presentation.pdf                    <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
-
 ```
