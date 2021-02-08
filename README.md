@@ -4,7 +4,7 @@
 
 # Stock Market Prediction
 
-**Authors**: Ning Chen
+**Author**: Ning Chen
 
 ## Overview
 Accurate prediction of stock market asset is a significant and challenging task due to complicated nature of the financial stock markets. Considering the increasing availability and affordability of powerful computational engines, deep learning methods of prediction have proved its efficiency in finance.
