@@ -23,6 +23,8 @@ My capstone project is Stock market Prediction. I’m going to build a time seri
 
 ## Data Preparation
 
+Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
+
 
 ![graph](/images/ohlc.jpeg)
 
