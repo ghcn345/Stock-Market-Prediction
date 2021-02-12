@@ -52,7 +52,7 @@ All models are evaluated by RMSE and MAE.
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook]() or our [presentation]().
+Please review our full analysis in [our Jupyter Notebook](https://github.com/ghcn345/Stock-Market-Prediction/blob/master/stock_market.ipynb) or our [presentation]().
 
 For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**.
 
