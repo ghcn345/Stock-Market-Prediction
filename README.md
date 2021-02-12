@@ -22,14 +22,14 @@ My capstone project is Stock market Prediction. I’m going to build a time seri
 [IEX API](https://iexcloud.io) and [Yahoo Finance](https://github.com/ranaroussi/yfinance)
 
 ## Data Preparation
-ACF and PACF 
 
-![graph](/images/acf.jpeg)
+
+![graph](/images/ohlc.jpeg)
 
 
 ## Modeling
 
-SARIMAX Model 
+SARIMAX Model with exogenous features
 
 ![graph](/images/SARIMAX.jpeg)
 
