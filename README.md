@@ -31,19 +31,23 @@ ACF and PACF
 
 SARIMAX Model 
 
-![graph](/images/sarimax.jpeg)
+![graph](/images/SARIMAX.jpeg)
 
-death prediction 
+Facebook Prophet
 
-![graph](/images/death.jpeg)
+![graph](/images/fbprophet.jpeg)
+
+LSTM
+
+![graph](/images/lstm.jpeg)
 
 ## Evaluation
 All models are evaluated by RMSE and MAE.
 
-![graph](/images/lstm.jpeg)
+
 
 ## Conclusion
-1. 
+ 
 
 
 ## For More Information
