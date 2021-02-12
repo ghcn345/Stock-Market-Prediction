@@ -19,7 +19,7 @@ My capstone project is Stock market Prediction. I’m going to build a time seri
 
 ## Data Understanding
 
-API
+[IEX API](https://iexcloud.io) and [Yahoo Finance](https://github.com/ranaroussi/yfinance)
 
 ## Data Preparation
 ACF and PACF 
