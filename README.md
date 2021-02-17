@@ -31,20 +31,21 @@ My capstone project is Stock market Prediction. I’m going to build a time seri
 
 
 ## Data Collection
-Collected data from three different web sources by using webscraping or API calls.
+Data was collected from three different web sources by API calls or Web Scraping.
 
-- [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) for Classification by Web Scrapping 
-- [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [IEX API](https://iexcloud.io) for Time Series data by API calls
-- Twitter for sentimental data
+- [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) for Classification by Web Scrapping.
+- [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [IEX API](https://iexcloud.io) for Time Series by API calls.
+- Twitter for sentimental data by VADER.
 
 
 ## Exploratory Data Analysis
 
-- Fundamental data was cleaned and formatted into a Pandas DataFrame.
-- Time series data was downloaded as daily data then resampled into weekly and monthly intervals.
-- Sentimental data was formatted into a Pandas DataFrame.
+- Quarterly Report data was cleaned and analyzed. A simple Trade Strategy wad made: local minimum of the price to buy, local maximum of the price to sell, and all other time to hold.
+- Time series data was joined with Quarterly Report data. The missing data for weekends and holidays was filled by interpolation method. The missing data of exogenous features was filled by propagating nearest valid observation backward/forward to next valid observation. 
+- Using TF-IDF for feature extraction in Sentiment Analysis.
+
     
-Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
+
 
 ![graph](/images/trade.jpeg)
 
@@ -54,8 +55,9 @@ Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
 
 ## Classification
 
-Fundamental data was then used to train several different classification models.
+Quarterly Report data was used to train several different classification models.
 
+![graph](/images/heatmap.jpeg)
 
 
 ## Time-Series
@@ -75,7 +77,7 @@ LSTM
 
 ## Sentimental
 
-Use NLP & Deep Learning to predict stock prices
+Use NLP & Deep Learning to predict stock prices.
 
 ## Frontend
 
