@@ -6,6 +6,18 @@
 
 **Author**: Ning Chen
 
+## Table of Contents
+- [Overview](#Overview)
+- [Business Understanding](#Business-Understanding)
+- [Data Collection](#Data Collection)
+- [Exploratory Data Analysis](#Exploratory Data Analysis)
+- [Classification](#Classification)
+- [Time Series](#Time-Series)
+- [Sentimental](#Sentimental)
+- [Streamlit](#Streamlit)
+- [Presentation](#Presentation)
+- [Next Steps](#Next-Steps)
+
 ## Overview
 Accurate prediction of stock market asset is a significant and challenging task due to complicated nature of the financial stock markets. Considering the increasing availability and affordability of powerful computational engines, deep learning methods of prediction have proved its efficiency in finance.
 
@@ -17,11 +29,11 @@ My capstone project is Stock market Prediction. I’m going to build a time seri
 
 
 
-## Data Understanding
+## Data Collection
 
-[IEX API](https://iexcloud.io) and [Yahoo Finance](https://github.com/ranaroussi/yfinance)
+[IEX API](https://iexcloud.io), [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) 
 
-## Data Preparation
+## Exploratory Data Analysis
 
 Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
 
@@ -30,7 +42,11 @@ Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
 ![graph](/images/ohlc.jpeg)
 
 
-## Modeling
+
+## Classification
+All models are evaluated by RMSE and MAE.
+
+## Time-Series
 
 SARIMAX Model with exogenous features
 
@@ -43,11 +59,6 @@ Facebook Prophet
 LSTM
 
 ![graph](/images/lstm.jpeg)
-
-## Evaluation
-All models are evaluated by RMSE and MAE.
-
-
 
 ## Next Step
  
