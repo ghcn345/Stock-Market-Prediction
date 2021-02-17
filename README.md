@@ -33,15 +33,16 @@ My capstone project is Stock market Prediction. I’m going to build a time seri
 ## Data Collection
 Collected data from three different web sources by using webscraping or API calls.
 
-    - [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) for Classification by Web Scrapping 
-    - [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [IEX API](https://iexcloud.io) for Time Series data by API calls
-    - Twitter for sentimental data
+- [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) for Classification by Web Scrapping 
+- [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [IEX API](https://iexcloud.io) for Time Series data by API calls
+- Twitter for sentimental data
 
 
 ## Exploratory Data Analysis
-    - Fundamental data was cleaned and formatted into a Pandas DataFrame.
-    - Time series data was downloaded as daily data then resampled into weekly and monthly intervals.
-    - Sentimental data was formatted into a Pandas DataFrame.
+
+- Fundamental data was cleaned and formatted into a Pandas DataFrame.
+- Time series data was downloaded as daily data then resampled into weekly and monthly intervals.
+- Sentimental data was formatted into a Pandas DataFrame.
     
 Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
 
