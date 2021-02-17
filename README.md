@@ -14,8 +14,7 @@
 - [Classification](#Classification)
 - [Time Series](#Time-Series)
 - [Sentimental](#Sentimental)
-- [Streamlit](#Streamlit)
-- [Presentation](#Presentation)
+- [Frontend](#Frontend)
 - [Next Steps](#Next-Steps)
 - [For More Information](#For-More-Information)
 - [Repository Structure](#Repository-Structure)
@@ -32,11 +31,18 @@ My capstone project is Stock market Prediction. I’m going to build a time seri
 
 
 ## Data Collection
+Collected data from three different web sources by using webscraping or API calls.
 
-[IEX API](https://iexcloud.io), [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) 
+    - [Quarterly Report](https://finance.yahoo.com/quote/AAPL/financials?p=AAPL) for Classification by Web Scrapping 
+    - [Yahoo Finance](https://github.com/ranaroussi/yfinance) and [IEX API](https://iexcloud.io) for Time Series data by API calls
+    - Twitter for sentimental data
+
 
 ## Exploratory Data Analysis
-
+    - Fundamental data was cleaned and formatted into a Pandas DataFrame.
+    - Time series data was downloaded as daily data then resampled into weekly and monthly intervals.
+    - Sentimental data was formatted into a Pandas DataFrame.
+    
 Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
 
 ![graph](/images/trade.jpeg)
@@ -46,9 +52,13 @@ Trade Strategy: local minimum to buy, local maximum to sell, other time to hold.
 
 
 ## Classification
-All models are evaluated by RMSE and MAE.
+
+Fundamental data was then used to train several different classification models.
+
+
 
 ## Time-Series
+Time series data was fitted and trained to two time series models. All models are evaluated by RMSE and MAE.
 
 SARIMAX Model with exogenous features
 
@@ -64,9 +74,11 @@ LSTM
 
 ## Sentimental
 
-## Streamlit
+Use NLP & Deep Learning to predict stock prices
 
-## Presentation
+## Frontend
+
+Streamlit was used to create a frontend for each form of analysis with their respective machine learning models.
 
 ## Next Step
  
@@ -74,7 +86,7 @@ LSTM
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](https://github.com/ghcn345/Stock-Market-Prediction/blob/master/stock_market.ipynb) or our [presentation](https://github.com/ghcn345/Stock-Market-Prediction/blob/master/Presentation.pdf).
+Please review our full analysis in [Jupyter Notebook](https://github.com/ghcn345/Stock-Market-Prediction/blob/master/stock_market.ipynb) or [presentation](https://github.com/ghcn345/Stock-Market-Prediction/blob/master/Presentation.pdf).
 
 For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**.
 
