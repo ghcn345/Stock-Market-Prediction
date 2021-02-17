@@ -55,7 +55,7 @@ Data was collected from three different web sources by API calls or Web Scraping
 
 ## Classification
 
-Quarterly Report data was used to train several different classification models.
+Quarterly Report data was used to train several different classification models. More than 100 features were presented in the dataframe. Therefore, Principle Component Analysis (PCA) was implemented to reduce the dimensionality. 
 
 ![graph](/images/heatmap.jpeg)
 
@@ -84,8 +84,9 @@ Use NLP & Deep Learning to predict stock prices.
 Streamlit was used to create a frontend for each form of analysis with their respective machine learning models.
 
 ## Next Step
- 
-
+- To access the updated quarterly reports timely and obtain more important features.
+- To tune the hyperparameters (exogenous variables) in Time Series models. Technical indicators such as MACD, Stochastic, RSI, etc can be used.
+- Besides Twitter, gathering more relevant sentimental data from other web sources.
 
 ## For More Information
 
