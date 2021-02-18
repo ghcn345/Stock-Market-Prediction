@@ -57,6 +57,8 @@ Data was collected from three different web sources by API calls or Web Scraping
 
 Quarterly Report data was used to train several different classification models. More than 100 features were presented in the dataframe. Therefore, Principle Component Analysis (PCA) was implemented to reduce the dimensionality. 
 
+![graph](/images/pca.jpeg)
+
 ![graph](/images/heatmap.jpeg)
 
 
