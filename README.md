@@ -85,6 +85,8 @@ Use NLP & Deep Learning to predict stock prices.
 
 Streamlit was used to create a frontend for each form of analysis with their respective machine learning models.
 
+![Streamlit]()
+
 ## Next Step
 - To access the updated quarterly reports timely and obtain more important features.
 - To tune the hyperparameters (exogenous variables) in Time Series models. Technical indicators such as MACD, Stochastic, RSI, etc can be used.
