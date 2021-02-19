@@ -85,7 +85,8 @@ Use NLP & Deep Learning to predict stock prices.
 
 Streamlit was used to create a frontend for each form of analysis with their respective machine learning models.
 
-![Streamlit]()
+<img src="images/mov.gif">
+
 
 ## Next Step
 - To access the updated quarterly reports timely and obtain more important features.
