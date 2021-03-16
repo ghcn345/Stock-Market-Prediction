@@ -13,7 +13,7 @@
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Classification](#Classification)
 - [Time Series](#Time-Series)
-- [Sentimental](#Sentimental)
+- [Sentimental Analysis](#Sentimental-Analysis)
 - [Frontend](#Frontend)
 - [Next Steps](#Next-Steps)
 - [For More Information](#For-More-Information)
@@ -77,7 +77,7 @@ LSTM
 
 ![graph](/images/lstm.jpeg)
 
-## Sentimental
+## Sentimental Analysis
 
 Use NLP & Deep Learning to predict stock prices.
 
