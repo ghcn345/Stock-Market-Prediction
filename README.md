@@ -25,7 +25,7 @@ Accurate prediction of stock market asset is a significant and challenging task 
 
 ## Business Understanding
 
-My capstone project is Stock market Prediction. I’m going to build a time series regression model using NN or other advanced techniques to predict the stock market. Stock market prediction aims to determine the future movement of the stock value of a financial exchange. My project is helpful for Stock investors and investment banks to have a better understanding in developing economical Strategy and in making financial decisions.
+A time series regression model using NN or other advanced techniques is built to predict the stock market. Stock market prediction aims to determine the future movement of the stock value of a financial exchange. This project is helpful for Stock investors and investment banks to have a better understanding in developing economical Strategy and in making financial decisions.
 
 
 
