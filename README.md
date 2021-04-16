@@ -63,7 +63,7 @@ Quarterly Report data was used to train several different classification models.
 
 
 ## Time-Series
-Time series data was fitted and trained to two time series models. All models are evaluated by RMSE and MAE.
+Time series data was fitted and trained to two time series models. All models are evaluated by RMSE and MAPE.
 
 SARIMAX Model with exogenous features
 
@@ -76,6 +76,10 @@ Facebook Prophet
 LSTM
 
 ![graph](/images/lstm.jpeg)
+
+GRU
+
+![graph](/images/gru.jpeg)
 
 ## Sentimental Analysis
 
