@@ -61,6 +61,8 @@ Quarterly Report data was used to train several different classification models.
 
 ![graph](/images/heatmap.jpeg)
 
+![graph](/images/xgb.jpeg)
+
 
 ## Time-Series
 Time series data was fitted and trained to two time series models. All models are evaluated by RMSE and MAPE.
