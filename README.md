@@ -85,13 +85,16 @@ GRU
 
 ## Sentimental Analysis
 
-Use NLP & Deep Learning to predict stock prices. \
+Use NLP & Deep Learning to predict stock prices. 
 
-Count of tweets for the stock is calculated\
+- Count of tweets for the stock is calculated\
 ![graph](/images/count.jpeg)
 
-Sentiment of the stock is analyzed \
+- Sentiment of the stock is analyzed 
 ![graph](/images/sentiment.jpeg)
+
+- Word Cloud
+![graph](/images/word.jpeg)
 
 ## Frontend
 
